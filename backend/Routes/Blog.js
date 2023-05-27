@@ -3,7 +3,7 @@ const router = express.Router();
 const multer = require('multer'); // For handling file uploads
 const upload = multer(); // Initialize multer
 
-const { createBlog ,getAllBlogs , getBlogById} = require('../controllers/Blog');
+const { createBlog ,getAllBlogs , getBlogById} = require('../Controllers/Blog');
 const AuthController = require('../Middlewares/user');
 
 // Create blog route

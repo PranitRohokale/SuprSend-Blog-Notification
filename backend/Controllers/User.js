@@ -1,5 +1,5 @@
-const User = require('../models/User');
-const Subscriber = require('../models/Subscriber');
+const User = require('../Models/Blog');
+const Subscriber = require('../Models/Subscriber');
 
 // Sign up controller
 exports.signUp = async (req, res) => {
