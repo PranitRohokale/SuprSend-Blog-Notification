@@ -55,7 +55,7 @@ const BlogPage = () => {
                   </Card.Body>
                   <Card.Footer>
                     <small className="text-muted">Author: {blog?.authorId?.email}</small>
-                    <Link to={`http://localhost:3000/blog/${blog?._id}`}>
+                    <Link to={`/blog/${blog?._id}`}>
                       <Button variant="primary" className='m-2'>View Blog</Button>
                     </Link>
                   </Card.Footer>
