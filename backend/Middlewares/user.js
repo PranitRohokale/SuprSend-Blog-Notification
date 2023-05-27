@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../Models/User');
 
 // Middleware to check if user is logged in
 exports.isLoggedIn = async (req, res, next) => {
